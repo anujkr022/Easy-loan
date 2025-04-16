@@ -1,0 +1,540 @@
+body{font-family: "Rubik", sans-serif}
+
+@media all and (min-width: 992px) {
+	.navbar .dropdown-menu-end{ 
+		 color:black ; 
+	    left:auto; 
+
+}
+.navbar .nav-item .dropdown-menu{ 
+	 display:block; 
+	 opacity: 0;  
+	 visibility: hidden; 
+	 transition:.3s;
+}
+
+	.navbar .nav-item:hover .nav-link{
+	 color:black ; 
+	 border-bottom: 1px solid #3589f1;
+}
+
+.navbar .dropdown-menu.fade-down a{ 
+	top:80%; 
+	transform-origin: 0% 0%;
+	position: relative;
+	right: 30px;
+}
+
+
+	.navbar .dropdown-menu.fade-up{
+	 top:180%; 
+	 color:black ;
+	   }
+
+.navbar .nav-item:hover .dropdown-menu{
+	 transition: .3s; 
+	 opacity:1; 
+	 visibility:visible; 
+	 top:100%; 
+	 transform: rotateX(0deg);
+   padding-top: 10px;
+
+	}
+}
+.num b a{
+	background-color: #3589f1;
+	padding: 16px;
+	border-radius: 15px;
+	text-decoration: none;
+	font-weight: 400;
+	color: white;
+}
+.num b a:hover{
+	background-color: blue;
+	transition: 3s;
+	 
+}
+@media all and (max-width: 601px) {
+	.num{
+		display: none;
+	}
+}
+.manu a{
+	color: #000019;
+  font-weight: 500;
+  margin-inline: 30px;
+
+}
+.apply{
+	background-color: black;
+	padding: 20px;
+	color: white;
+	border-radius: 10px;
+	text-decoration: none;
+	 
+}    
+.apply:hover{
+	color: white;
+	background-color:#3589f1;
+	transition: 2s;
+	text-decoration: none;
+}
+
+@media screen and (min-height: 701px) {
+	.goal img{
+		display: none;
+	}
+	.hero img{
+		display: none;
+	}
+	.hero1{
+		display: none;
+	}
+	.con{
+		display: none;
+	}
+}
+.hero{
+	position: relative;
+	left: 12px;
+}
+
+.goal{
+	line-height: 120px;
+	padding-left: 50px;
+}
+.goal b{
+ color: #3589f1;
+}
+
+.goal h1{
+	font-family: "Rufina", serif;
+	font-weight: 600;
+	font-size: 70px;
+}
+@media screen and (max-width: 601px) {
+	.goal h1{
+		font-size: 30px;
+		font-family: "Rufina", serif;
+	font-weight: 600;
+	}
+}
+.con svg{
+	 position: relative;
+	 top: 60px;
+}
+.con span{
+	color: white;
+	font-weight: bold;
+	position: relative;
+	top: 45px;
+	left: 18px;
+
+}
+.our span{
+	 
+  color:#3589f1;
+  font-weight: bold;
+  line-height: 100px;
+}
+.our h2{
+	font-family: "Rufina", serif;
+	font-weight: 600;
+	font-size: 40px;
+	 
+}
+@media screen and (max-width: 601px) {
+	.our h2{
+	font-family: "Rufina", serif;
+	font-weight: 600;
+	font-size: 25px;
+}
+}
+.our p{
+	font-family: "Rubik", sans-serif;
+	color: #64676c;
+	padding-top: 10px;
+	 
+}
+.photo1{
+	position: relative;
+	top: 300px;
+   right: 50px;
+	z-index:1;
+}
+.photo img {
+	position: absolute;
+	z-index: -1;
+
+}
+.service p{
+	padding-top: 250px;
+	 color:#3589f1;
+  font-weight: bold;
+  line-height: 50px;
+}
+.service h3{
+	font-family: "Rufina", serif;
+	font-weight: 600;
+	font-size: 40px;
+}
+@media screen and (max-width: 601px) {
+	.service h3{
+	font-family: "Rufina", serif;
+	font-weight: 600;
+	font-size: 25px;
+}
+}
+.loan{
+	height: 400px;
+	width: 100%;
+	background-color: whitesmoke;
+	border-bottom: 2px solid blue;
+}
+.loan svg{
+	margin-top: 80px;
+}
+.loan b a{
+	text-decoration: none;
+	color:black;
+	font-family: "Rufina", serif;
+	font-weight: 600;
+ line-height: 80px;
+}
+.loan b a:hover{
+	color:#3589f1 ;
+}
+.loan span{
+	color: #64676c;
+	padding: 30px;
+	line-height: 30px;
+}
+@media screen and (min-height: 701px) {
+	.service p{
+	padding-top: 450px;
+}
+.photo1{
+ display: none;
+}
+}
+.pic img{
+	height: auto;
+	width: 100%;
+}
+.pic1{
+		border-right:20px solid #3589f1 ;
+		height: 581px;
+		position: relative;
+		right: 70px;
+}
+@media screen and (max-width: 601px) {
+	.pic1{
+		border-right:20px solid #3589f1 ;
+		height: 580px;
+		position: relative;
+	 right: 0px;
+}
+}
+.company span{
+	color:#3589f1;
+	font-family: "Rubik", sans-serif;
+	font-weight: 550;
+ position: relative;
+ top: 80px;
+}
+.company h2{
+	font-family: "Rufina", serif;
+	font-weight: 600;
+	font-size: 50px;
+	position: relative;
+ top: 100px;
+	 
+}
+
+@media screen and (max-width: 601px) {
+	.company h2{
+	font-family: "Rufina", serif;
+	font-weight: 600;
+	font-size: 30px;
+	position: relative;
+  top: 100px;
+	 
+}
+
+}
+.company p{
+	color: grey;
+	line-height: 35px;
+	position: relative;
+  top: 120px;
+  
+}
+.checkbox{
+  padding-top: 150px;
+  color: grey;
+  	line-height: 35px;
+}
+.checkbox input{
+  background-color: #014b85;
+   }
+ .type1{
+ 	background-color: white;
+ 	width:55%;
+  margin-top: 20px;
+  padding: 5px;
+ }
+ @media screen and (max-width: 601px) {
+ 	.type1 select{
+ 	width:100%;
+  margin-top: 10px;
+  }
+ .type1 input{
+  	width: 100%;
+   margin-top: 10px;
+  }
+  .type1{
+  	background: none;
+  	width: 100%;
+  }
+  .type1 select option{
+     width: 100%;
+     }
+ }
+ 
+
+ .type h5{
+   padding-top: 150px;
+   color: white;
+   font-size: 15px;
+
+ }
+.type h2{
+	color: white;
+	font-family: "Rufina", serif;
+	font-weight: 600;
+	font-size: 40px;
+  padding-top: 20px;
+}
+@media screen and (max-width: 601px) {
+	.type h2{
+	color: white;
+	font-family: "Rufina", serif;
+	font-weight: 600;
+	font-size: 25px;
+  padding-top: 20px;
+}
+}
+ .type1 select{
+   border:none;
+   border-right: 1px solid gray;
+   padding: 15px 19px 15px 17px;
+   color: #616875;
+   line-height: 42px;
+ }
+ .type1 input{
+ 	border: none;
+ 	padding: 6px 15px 6px 14px;
+  color: #616875;
+  line-height: 42px;
+ }
+ .type1 a{
+ 	width: 100%;
+ 	background-color:#3589f1 ;
+ 	color: white;
+ 	text-decoration: none;
+ 	font-size: 18px;
+ 	padding: 12px;
+ }
+
+ @media screen and (max-width: 601px) {
+ 	.type1 a{
+
+ 	 width: 100%;
+ 	 position: relative;
+ 	 top: 30px;
+ 	 width: 100%;
+ 	 border: 5px solid white;
+ 	 }
+ }
+ .team h6{
+  color: #3589f1;
+  font-size: 15px;
+  font-weight: bold;
+ }
+ .team h3{
+
+	font-family: "Rufina", serif;
+	font-weight: 600;
+	font-size: 40px;
+  padding-top: 20px;
+ }
+
+ @media screen and (max-width: 601px) {
+ 	.team h3{
+
+	font-family: "Rufina", serif;
+	font-weight: 600;
+	font-size: 30px;
+  padding-top: 20px;
+ }
+}
+
+ .teamimage {
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            margin: 0 auto;
+            background-color: white;
+            
+        }
+
+        .teamimage img {
+            width: 100%;
+            transition: 0.5s all ease-in-out;
+        }
+
+        .teamimage:hover img {
+            transform: scale(1.1);
+        }
+  
+ .teamimage a{
+ 	
+ 	color: black;
+ 	text-decoration: none;
+ 	font-family: "Rufina", serif;
+ 	font-size: 30px;
+ 	position: relative;
+ 	top: 20px;
+ 
+ }
+ @media screen and (min-height: 701px) {
+ .teamimage {
+ width: 100%;
+  height: 550px;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: white;           
+ }
+ } 
+ .teamimage a:hover{
+ 	color: #3589f1 ;
+ }
+ .teamimage span{
+ 	color: grey;
+ 		position: relative;
+ 	top: 15px;
+ }
+ .about{
+ 	background: #021a47;
+ 	height: auto;
+ 	padding:40px ;
+ }
+ 	.about img{
+ 		padding-top: 50px;
+ 		padding-right: 70px;
+ 	}
+ 	.about p{
+ 		color: white;
+ 		font-size: 30px;
+
+ 	}
+ 	@media screen and (max-width: 601px) {
+ 		.about p{
+ 		color: white;
+ 		font-size: 20px;
+ 	}
+ 	}
+ .about p{
+   position: relative;
+   top: 40px;
+ }
+ .jessey h5{
+ 	 color: white;
+ 	 font-size: 20px;
+ 	 position: relative;
+ 	 left: 85px;
+ 	 bottom: 80px;
+ 	  
+ }
+ .jessey span{
+ 	 color: white;
+ 	 font-size: 20px;
+ 	 position: relative;
+ 	 left: 85px;
+ 	 bottom: 80px;
+ 	  
+ }
+ .late {
+   width: 100%;
+   height: auto;
+   overflow: hidden;
+   margin: 0 auto;
+   background-color: white;    
+  }
+ .late img {
+   width: 100%;
+   transition: 0.5s all ease-in-out;
+  }
+   .late:hover img {
+   transform: scale(1.1);
+  }
+
+ .late h5{
+ 	padding-top: 50px;
+ 	color:#3589f1 ;
+ 	font-size: 15px;
+ }
+ 
+ .late a{
+ 	text-decoration: none;
+ 	color: black;
+  font-size: 28px;
+  position: relative;
+  top: 20px;
+
+ }
+ .late a:hover{
+ 	color: #3589f1;
+ }
+ .late p{
+ 	color: grey;
+ 	padding-top: 30px;
+ }
+  
+ .down h1{
+ 	color: white;
+	font-family: "Rufina", serif;
+	font-weight: 600;
+ }
+ .down p{
+ 	color: grey;
+ 	font-size: 15px;
+ }
+ .quick h3{
+  color: white;
+  font-weight:400;
+  font-size: 21px;
+   
+ }
+ .quick a{
+ 	text-decoration: none;
+ 	color: grey;
+ 	line-height: 50px;
+ 	font-family: "Rubik", sans-serif;
+ }
+  .quick a:hover{
+  	color:#3589f1 ;
+  	padding-left: 5px;
+  	transition:1s;
+  }
+  .copy p{
+  	color: grey;
+  	background-color:#021a47;
+  }
+  .copy1 svg{
+  	color: grey;
+  	float: right;
+  	margin-inline: 20px;
+  	position: relative;
+  	bottom: 36px;
+  }
